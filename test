@@ -1,0 +1,1 @@
+from PIL import Imageimport pytesseractimage=Image.open("photo.png")#image.load()    #调试事可以使用#image.show()    #调试事可以使用text=pytesseract.image_to_string(image,lang='chi_sim')print(text)
